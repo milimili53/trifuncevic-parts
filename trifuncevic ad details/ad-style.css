@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.background-section {
+  text-align: center;
+  background-image: url("assets-ad/ad-back.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px 20px;
+}
+
+.background-section h1 {
+  color: #fff;
+}
+
+.ad-info-wrapper {
+  margin-top: 80px;
+  display: flex;
+}
+
+.gallery {
+  flex-grow: 1;
+  max-width: 620px;
+  max-height: 510px;
+  overflow: hidden;
+}
+
+.info-part {
+  text-align: center;
+  margin-left: 10%;
+  flex-grow: 1;
+  /*
+  width: 450px;
+*/
+}
+
+.squarefeet {
+  text-align: center;
+  padding: 10px 50px;
+  border: 2px solid #0066b4;
+  display: inline;
+  font-weight: 700;
+  font-size: 27px;
+}
+
+.icon-info {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 50px;
+}
+
+.info {
+  font-weight: 700;
+  font-size: 22px;
+}
