@@ -26,6 +26,10 @@
 .ad-info-wrapper {
   margin-top: 80px;
   display: flex;
+  padding: 10px;
+  padding-top: 50px;
+  justify-content: center;
+  margin: auto;
 }
 
 .gallery {
@@ -33,12 +37,14 @@
   max-width: 620px;
   max-height: 510px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .info-part {
   text-align: center;
   margin-left: 10%;
   flex-grow: 1;
+  margin-top: 20px;
   /*
   width: 450px;
 */
@@ -48,15 +54,16 @@
   text-align: center;
   padding: 10px 50px;
   border: 2px solid #0066b4;
-  display: inline;
+  display: inline-block;
   font-weight: 700;
   font-size: 27px;
+  margin-bottom: 20px;
 }
 
 .icon-info {
   display: flex;
   margin-top: 25px;
-  justify-content: center;
+
   align-items: center;
 }
 
@@ -67,4 +74,214 @@
 .info {
   font-weight: 700;
   font-size: 22px;
+}
+
+.display-rows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ad-description {
+  max-width: 50%;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.ad-description h2 {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.ad-des {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.contact-info {
+  margin-top: 120px;
+  margin-bottom: 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.phone {
+  text-align: center;
+  margin-right: 15%;
+}
+
+.ph-h {
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.number {
+  margin-bottom: 8px;
+}
+
+.soc-icons {
+  text-align: center;
+}
+
+.soc-icons a {
+  text-decoration: none;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.see-more {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.more-h {
+  font-size: 37px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+
+.more-btn {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+  align-items: center;
+  width: 350px;
+  height: 60px;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #009fe0;
+  border: none;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.more-btn:hover {
+  transform: scaleX(1.1);
+  background-color: #0066b4;
+}
+
+@media only screen and (max-width: 800px) {
+  .ad-info-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .ad-description {
+    max-width: 100%;
+  }
+
+  .info-part {
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .icon-info {
+    justify-content: center;
+  }
+
+  .icon {
+    height: 48px;
+  }
+
+  .info {
+    font-size: 17px;
+  }
+
+  .squarefeet {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .contact-info {
+    flex-wrap: wrap;
+  }
+
+  .phone {
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .background-section h1 {
+    font-size: 25px;
+  }
+
+  .ad-des {
+    font-size: 17px;
+  }
+
+  .ad-description h2 {
+    font-size: 25px;
+  }
+
+  .ph-h {
+    font-size: 20px;
+  }
+
+  .soc-icons a img {
+    height: 30px;
+  }
+
+  .number {
+    font-size: 18px;
+  }
+
+  .soc-icons a {
+    margin-right: 10px;
+  }
+
+  .more-h {
+    font-size: 23px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .more-btn {
+    width: 250px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 270px) {
+  .more-btn {
+    width: 70%;
+    font-size: small;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .play {
+    height: auto;
+  }
+
+  .more-h {
+    font-size: medium;
+  }
+}
+
+@media only screen and (max-width: 210px) {
+  .background-section h1 {
+    font-size: 20px;
+  }
+
+  .icon {
+    height: 30px;
+  }
+
+  .info {
+    font-size: 15px;
+  }
+
+  .squarefeet {
+    font-size: 18px;
+  }
 }
