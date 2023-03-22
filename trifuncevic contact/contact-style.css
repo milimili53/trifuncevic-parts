@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ///////////////////////////// */
+
+.background-section {
+  text-align: center;
+  background-image: url("assets-cont/cont-back.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 130px 20px;
+  margin-bottom: 70px;
+}
+
+.background-section h2 {
+  color: #fff;
+}
+
+.name-fam {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-info {
+  display: flex;
+}
+
+.info-h {
+  font-size: 25px;
+  letter-spacing: 1px;
+  color: #0066b4;
+  margin-bottom: 30px;
+}
+
+.input {
+  border: 2px solid #0066b4;
+  padding: 10px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.name {
+  width: 90%;
+}
+
+.input-h {
+  font-size: 20px;
+}
+
+.mess {
+  height: 150px;
+  text-align: start;
+}
+
+.email-submit {
+  background-color: #009fe0;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  width: 170px;
+  height: 50px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.email-submit:hover {
+  background-color: #0066b4;
+  transform: scaleX(1.1);
+}
+
+.info-text {
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.social-cont {
+  margin-right: 7%;
+  cursor: pointer;
+}
+
+.informations div {
+  margin-bottom: 90px;
+}
+
+.info {
+  margin-left: 7%;
+  text-align: center;
+}
+
+.cont-back {
+  position: absolute;
+  top: 15%;
+  right: -20%;
+}
+
+.see-more {
+  margin-top: 150px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.more-h {
+  font-size: 37px;
+  font-weight: 700;
+  margin-bottom: 70px;
+}
+
+.more-btn {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+  align-items: center;
+  width: 350px;
+  height: 60px;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #009fe0;
+  border: none;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.more-btn:hover {
+  transform: scaleX(1.1);
+  background-color: #0066b4;
+}
+
+@media only screen and (max-width: 1090px) {
+  .cont-back {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .form-info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .info {
+    margin-top: 100px;
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .cont-h {
+    font-size: 35px;
+  }
+
+  .sub-heading {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .name-fam {
+    display: block;
+    width: 100%;
+  }
+
+  .name-fam .input {
+    width: 100%;
+  }
+
+  .name {
+    margin-right: 0%;
+  }
+
+  .more-h {
+    font-size: 23px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .more-btn {
+    width: 250px;
+    font-size: 18px;
+  }
+
+  .background-section h2 {
+    font-size: medium;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .cont-h {
+    font-size: 25px;
+  }
+
+  .sub-heading {
+    font-size: 13px;
+  }
+
+  .info-h {
+    font-size: 20px;
+  }
+
+  .info-text {
+    font-size: 18px;
+  }
+
+  .social-cont {
+    height: auto;
+    width: 100%;
+  }
+
+  .social-cont img {
+    height: 30px;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  .input {
+    font-size: 17px;
+  }
+
+  .input-h {
+    font-size: 18px;
+  }
+
+  .cont-h {
+    font-size: 19px;
+  }
+
+  .sub-heading {
+    font-size: 10px;
+  }
+
+  .email-submit {
+    font-size: 16px;
+    width: 130px;
+  }
+
+  .email-submit:hover {
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 290px) {
+  .cont-h {
+    font-size: 17px;
+  }
+
+  .sub-heading {
+    font-size: 8px;
+  }
+}
+
+@media only screen and (max-width: 270px) {
+  .more-btn {
+    width: 70%;
+    font-size: small;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .play {
+    height: auto;
+  }
+
+  .more-h {
+    font-size: medium;
+  }
+}
