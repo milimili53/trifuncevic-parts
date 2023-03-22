@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer {
+  background-color: #0066b4;
+  padding: 30px 10px 30px 10px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foot-h {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.foot-text {
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  color: #fff;
+}
+
+.site-map a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.one-f,
+.two-f {
+  display: flex;
+  justify-content: center;
+}
+
+.one-f > a,
+.two-f > a {
+  margin-right: 30px;
+}
+
+.one-f {
+  margin-bottom: 30px;
+}
+
+.phone-num-f {
+  margin-bottom: 10px;
+}
+
+.phone-f {
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer-wrapper {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-wrapper {
+    display: block;
+    text-align: center;
+  }
+
+  .logo-part,
+  .site-map,
+  .socials-foot,
+  .contact-phone {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}
